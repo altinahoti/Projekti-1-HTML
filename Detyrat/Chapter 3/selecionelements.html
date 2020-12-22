@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--Fig. 3.18: sectioneelements.html-->
+<!--New HTML5 section elements.-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>New HTML5 Section Elements</title>
+</head>
+<body>
+	<a href="../../projektet/homework.html">
+		<img src="png.jpg" height="3%" width="2%">
+	</a>
+	<header>
+		<!--header element creates a header for the page-->
+		<img src="images22.png" alt="Deitel logo"/>
+		<h1>Welcome to the Deitel Buzz Online</h1>
+		<!--time element inserts a date and/or time-->
+		<time>2012-01-17</time>
+	</header>
+	<section id="1">
+		<!--Begin section 1-->
+		<nav>
+			<!-- nav element groups navigation links-->
+			<h2>Recent Publications</h2>
+
+			<ul>
+				<li><a href="https://deitel.com/">Internet&World Wide Web How to program,5</a></li>
+				<li><a href="https://deitel.com/">Android for Programmers:An App-Driven Approach</a></li>
+
+				<li><a href="https://deitel.com/#google_vignette">iPhone for Programmers: An App-Driven Approach</a></li>
+
+			</ul>
+		</nav>
+	</section>
+
+	<section id="2"> <!--Begin section-->
+		<h2>How to Program Series Book</h2>
+		<h3><em>Java How to Program,9/e</em></h3>
+		<figure> <!--figure element describes the image-->
+			<img src="images22.jpg" alt="Java How to Program,9/e">
+			<!--figurecaption element inserts a figure caption-->
+			<figcaption><em>Java How to Program,9/e</em>cover.</figcaption>
+			
+		</figure>
+		<!--article element respresents content from another source -->
+		<article>
+			<header>
+				<h5>From
+					<em>
+						<a href="https://deitel.com/#google_vignette">Java How to Program,9/e</a>
+					</em>
+				</h5>
+			</header>
+			<p>Features include:
+				<ul>
+					<li>Rich coverage of fundamentals,including
+						<!--mark element highlights text-->
+							<mark>two chapters on control statements.</mark></li>
+							<li>Focus on <mark>real-world examples.</mark></li>
+							<li>Early Introduction to classes ,objects,methods and strings.</li>
+							<li>Files,streams and object serilization.</li>
+							<li>Optional modular sections on languages and library features of the new Java SE 7.</li>
+							<li>Other topics include:Recursion,searching,sorting,generic collections,generic ,data structures,applets,multimedia,multithreading,databases/JDBC&trade: web-app development,web services and an optional ATM Object-Oriented Design case study.</li>
+				</ul>
+				<!--summary element represents a summary for the-->
+				<!--content of the details element-->
+				<details>
+					<summary>Recent Edition Testimonials</summary>
+					<ul>
+						<li>
+							"Updated to reflect the state of the art in Java technologies; its deep and crystal clear explanations make it indispensable.The social-conciousness {making diferences}exercises are something really new and refreshing."
+							<strong>&mdash:Jos&eacute;Antonio Gonz&eacute;lez Seco,Parliment of Andalusia</strong>
+						</li>
+						Updated to reflect the state of the art in Java technologies; its deep and crystal clear explanations make it indispensable.The social-conciousness {making diferences}exercises are something really new and refreshing."<strong>&mdash:Jos&eacute;Antonio Gonz&eacute;lez Seco,Parliment of Andalusia</strong>
+						<li>
+							"Updated to reflect the state of the art in Java technologies; its deep and crystal clear explanations make it indispensable.The social-conciousness {making diferences}exercises are something really new and refreshing."
+							<strong>&mdash:Jos&eacute;Antonio Gonz&eacute;lez Seco,Parliment of Andalusia</strong>
+						</li>
+					</ul>
+
+				</details>
+			</p>
+
+		</article>
+		<!--aside element represents content in a sidebar that's-->
+		<!--related to the content around the element-->
+		<aside>
+			The aside element is not formatte by the browsers.
+		</aside>
+		<h2>Deitel Developer Series Books</h2>
+		<h3><em>Android for Programmers:An app-driven Approach</em></h3>
+		Click <a href="https://deitel.com/#google_vignette">here</a> for more information about our LiveLessons videos.
+	</section>
+	<section id="3"><!--Begin section 3-->
+		<h2>Results from our Facebook Survey</h2>
+		<p>If were a nonprogrammer about to learn Java for the first time,would you preffer a course that taught Java in the context of Android app developent? Here are the results from our survey:</p>
+		<!--meter element represents a sclae within a range-->
+		0 <meter min="0"
+		max="54"
+		value="14">
+			
+		</meter>54
+		
+		<p>Of the 54 responders,14(green) would prefer to learn Java in the context of Android app development.</p>
+	</section>
+	<!--footer element respresent a footer to a section or page-->
+	<!--usually containing information such as author name,-->
+	<!--copyright,etc-->
+	<footer>
+		<!--wbr element indicates the appropriate place to break a-->
+		<!-- word when the text wraps-->
+		<h6>&copy; 1992-2012 by Deitel &amp; Associ<wbr>ates,Inc.All Rights Reserved </h6>
+			<!--address element represents contact information for a -->
+			<!--document or the nearest body element or article-->
+			<address>
+				Contact us at <a href="mailto:deitel@deitel.com">deitel@deitel.com</a>
+			</address>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--Fig. 3.1: newforminputtypes.html-->
+<!--New HTML5 form input types and attributes.-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>New HTML5 Input types</title>
+</head>
+<body>
+	<a href="../../projektet/homework.html">
+		<img src="png.jpg" height="3%" width="2%">
+	</a>
+	<h1>New HTML5 input types Demo</h1>
+	<p>This form demontrtes the new HTML5 input types and the placeholder,required and autofocus attributes.</p>
+
+	<form method="post" action="https://www.facebook.com/" >
+		<p>
+			<label>Color:
+				<input type="Color" autofocus>
+				(Hexadecimal code such as #ADD8E6)></label>
+		</p>
+		<p>
+			<label>Date :
+				<input type="Date"/>(yyyy-mm-dd)
+			</label>
+		</p>
+		<p>
+			<label>Datetime:
+				<input type="Datetime"/> (yyyy-mm-dThh:mm+ff:gg, such as 2012-01-27T03:15)
+			</label>
+		</p>
+		<p>
+			<label>DateTime-Local
+				<input type="Date time-local"/>(yyyy-mm-dThh:mm, such as 2012-01-27T03:15)</label>
+		</p>
+		<p>
+		<label>Email:
+			<input type="Email" placeholder="name@domain.com" required/>(name@domain.com)</label>
+		</p>
+		<p>
+			<label>Month:
+				<input type="Month"/> (yyyy-mm)</label>
+		</p>
+		<p>
+			<label>Number:
+				<input type="Number" 
+				min="0"
+				max="7"
+				step="1"
+				value="4"/>
+			</label>(Enter number beetwen 0 and 7)
+
+		</p>
+		<p>
+			<label>
+				<input type="Month"/> (yyyy-mm)
+			
+		</label>
+		</p>
+		<p>
+			<label>Range:
+				<input type="Range" 
+				min="0"
+				max="20"
+				value="10"/> 20
+			</label>
+		</p>
+		<p>
+			<label>Search:
+				<input type="Search" placeholder="Search query" />
+			</label> (Enter your search query here. )
+
+		</p>
+
+		<p>
+			<label>Tel:
+				<input type="Tel" placeholder="(###) ###-####" pattern="\(d{3}\) + \d{3}-\d{4}" required/>
+				(###) ###-####
+			</label>
+		</p>
+		<p>
+			<label>Time:
+				<input type="time"/>(hh:mm:ss.ff)
+				
+			</label>
+		</p>
+		<p>
+			<label>URL:
+				<input type="URL" placeholder="https://www.facebook.com/"/>
+				https://www.facebook.com/
+			</label>
+		</p>
+		<p>
+			<label>Week:
+				<input type="Week"/>
+				(yyyy-Wnn,such as 2012-W01)
+				
+			</label>
+		</p>
+		<p>
+			<input type="submit" value="submit">
+			<input type="reset" value="clear">
+
+		</p>
+	</form>
+</body>
+</html>
